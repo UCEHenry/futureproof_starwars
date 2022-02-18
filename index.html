@@ -12,14 +12,20 @@
     <style>
         .parallax {
             /* The image used */
-            background-image: url("http://www.theforce.net/fanfilms/postproduction/crawl/starwarslogo.jpg");
+            background-image: url("assets/frontpage.jpg");
             /* Set a specific height */
             min-height: 100vh;
+            min-width: 100vw;
+            width: 100vh;
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+        }
+
+        body {
+            background-color: black;
         }
 
         p {
@@ -36,7 +42,7 @@
 
 <body>
     <div class="parallax"></div>
-    <div style="height:100%;background-color:rgb(12, 12, 12); font-size:25px">
+    <div style="height:100vh; font-size:25px">
         <div class="container">
             <br>
             <br>
@@ -44,8 +50,7 @@
             <br>
             <br>
             <div class="clearfix">
-                <img src="https://assets.mycast.io/posters/star-wars-legends-universe-fan-casting-poster-14848-small.jpg?1568123630"
-                    class="col-md-6 float-md-end mb-3 ms-md-3" alt="">
+                <img src="assets/cast.jpg" class="col-md-3 float-md-end mb-12 ms-md-12" alt="">
                 <p> Callista trilogy is a series of three Star Wars novels featuring the ex-Jedi character Callista
                     Ming; while not officially branded as a trilogy, they are often regarded as such. They take place
                     beginning several months after the Jedi Academy trilogy, or eight years after Return of the Jedi.
